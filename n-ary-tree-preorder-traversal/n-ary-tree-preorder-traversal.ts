@@ -22,3 +22,8 @@ function preorder(root: Node | null): number[] {
   }
   return result;
 };
+
+// function preorder(root: Node | null): number[] {
+//     if (!root) return [];
+//     return [].concat(root.val, ...root.children.map(preorder));
+// };
